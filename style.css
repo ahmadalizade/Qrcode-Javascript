@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+    direction:rtl;
+}
+#wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.qrForm{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+.qrForm input{
+    padding: 10px;
+    border-radius: 4px;
+    direction:ltr;
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+}
+.qrForm input:focus{
+    outline: 0!important;
+}
+
+.qrForm button{
+    background-color: coral;
+    padding: 10px 16px;
+    margin-top: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+}
+
+.qrcode-img{
+    width: 100%;
+    padding: 16px;
+}
